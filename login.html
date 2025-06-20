@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body class="bg-main-color">
+
+  <div class="container">
+     <div class="wrapper col-6 m-auto my-5 shadow bg-main-color text-center">
+    <h1>Login</h1>
+    <p class="errorMessage" id="error-message"></p>
+    <form id="form" class="p-5">
+      <div class="mb-3">
+        <input type="email" class="form-control" name="email" id="email-input" placeholder="Enter Your Mail">
+      </div>
+      <div class="mb-3">
+        <input type="password" class="form-control" name="password" id="password-input" placeholder="Enter Your Password">
+      </div>
+    <div class="py-3">
+      <button type="submit"  id="signupBtn" class=" w-100 btn btn-outline-info">Log In</button>
+    </div>
+    <p class="d-inline text-white">Don’t have an account?</p><a class="text-white" href="signup.html"> Sign Up</a>
+
+      </form>
+
+  </div>
+
+  </div>
+   <script src="validation.js"></script>
+</body>
+</html>
