@@ -1,0 +1,35 @@
+.main-div{
+    width: 50%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.bg-main-color{
+    background-color: #24353F;
+}
+
+.h1-color{
+    color: #1B8294;
+}
+
+.form-control {
+background-color:transparent;
+color: white;
+
+}
+
+.form-control:focus{
+    background-color:transparent;
+    color: white !important;
+}
+
+ ::placeholder {
+    color: white !important;
+  }
+
+.errorMessage{
+  color:#f06272;
+}
+
+
+
